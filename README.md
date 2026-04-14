@@ -129,12 +129,13 @@ http://localhost:5173
 
 ## 🏆 Status do Projeto
 
-✅ CRUD completo
+✅ CRUD completo<br>
 ✅ Integração com banco de dados
 
 ---
 
 ## 📸 Preview 
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/8fadfca9-d6ad-4cc0-8113-40f8196dd9a2" />
 
 
 
