@@ -36,7 +36,7 @@ O objetivo do projeto é permitir o gerenciamento de entradas e saídas financei
 
 * Node.js
 * Express
-* MySQL2
+* MySQL
 * CORS
 
 ## 📂 Estrutura do Projeto
