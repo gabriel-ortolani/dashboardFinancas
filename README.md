@@ -64,8 +64,8 @@ dashboard-financas/
 ### 🔹 1. Clonar o repositório
 
 ```bash
-git clone <seu-repo>
-cd dashboard-financas
+git clone https://github.com/gabriel-ortolani/dashboardFinancas
+cd dashboardFinancas
 ```
 
 
@@ -90,7 +90,6 @@ http://localhost:3001
 ### 🔹 3. Rodar o Frontend
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
