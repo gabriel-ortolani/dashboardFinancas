@@ -1,0 +1,106 @@
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e2e8f0;
+  --text-h: #ffffff;
+  --border: #334155;
+  --green: #22c55e;
+  --red: #ef4444;
+}
+
+/* Fundo geral */
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+/* Container central */
+#root {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Card principal */
+.app {
+  background-color: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Espaçamento */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Botão */
+button {
+  margin-top: 10px;
+}
+
+/* Lista */
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #334155;
+}
+
+.transaction-list {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.clear-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+}
+
+.clear-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+.clear-btn:active {
+  transform: scale(0.95);
+}
+
+/* Cores */
+.green {
+  color: var(--green);
+}
+
+.red {
+  color: var(--red);
+}
+
+/* Summary */
+.summary {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #020617;
+}
+
+.summary p {
+  margin: 5px 0;
+}
